@@ -1,0 +1,872 @@
+abdominal mri
+abdominal tap
+abdominal ultrasound
+abdominal x-ray
+abo blood typing
+acoustic reflex test
+acth (adrenocorticotropic hormone) test
+acth suppression test
+activated partial thromboplastin time
+adrenocorticotropic hormone
+afp (alpha-fetoprotein) test
+aids test
+air contrast study
+alanine aminotransferase (alt)
+albumin test, blood
+alcohol, breath test
+aldosterone in blood
+aldosterone in urine
+alkaline phosphatase
+allergy tests
+alpha-amylase test
+alpha-fetoprotein (afp) in blood
+alt (alanine aminotransferase)
+ambulatory electrocardiogram
+ammonia blood level test
+amniocentesis
+amniocentesis for rh sensitization during pregnancy
+amylase plasma level
+antinuclear antibodies (ana) test
+angiogram
+angiogram of the head and neck
+angiogram of the lung
+angiography, fluorescein
+ankle-brachial index test
+anoscopy
+anterior cruciate ligament (acl) surgery
+antibody test for hepatitis a
+antibody tests -- antibody tests
+antibody tests -- immunoglobulins
+antigen tests for giardiasis
+antiglobulin tests
+antinuclear antibodies (ana) test
+antisperm antibody test
+aortobifemoral bypass for peripheral arterial disease
+aptt
+arm x-ray
+arterial blood gases (abg)
+arteriography
+arthrogram (joint x-ray)
+arthroplasty for rheumatoid arthritis
+arthroscopy
+arthroscopy for rheumatoid arthritis
+arthroscopy for tm disorders
+artificial sphincter for urinary incontinence in men
+aspartate aminotransferase (ast) test
+ast (aspartate aminotransferase) test
+audiometry
+auditory brainstem evoked potential (abep) test
+autopsy
+back x-ray
+bacterial vaginosis tests
+barium enema
+barium swallow
+bernstein test
+beta-natriuretic peptide
+bicarbonate (hco3) test
+bilirubin test
+biophysical profile (bpp)
+biopsy of genital warts (human papillomavirus)
+biopsy, bone
+biopsy, bone marrow
+biopsy, breast
+biopsy, endometrium
+biopsy, kidney
+biopsy, liver
+biopsy, lung
+biopsy, lymph node
+biopsy, sentinel lymph node
+biopsy, testicular
+biopsy, thyroid
+biospy, prostate
+bladder stress test and bonney test for urinary incontinence in women
+blood alcohol concentration
+blood ca (calcium) level
+blood carbon dioxide level
+blood carbon monoxide (co) level 
+blood cortisol levels
+blood culture
+blood lead level
+blood magnesium (mg) test
+blood osmolality test
+blood phosphate level
+blood phosphate (po4) test
+blood potassium (k) level
+blood protein test
+blood sodium (na) level
+blood type test
+blood urea nitrogen (bun) test
+blood uric acid level
+bnp (brain natriuretic peptide) test
+body temperature
+bone biopsy
+bone marrow aspiration and biopsy
+bone mineral density
+bone scan
+bowel resection for colorectal cancer
+bowel transit time
+brain natriuretic peptide (bnp) test
+brca (breast cancer) gene test
+breast biopsy
+breast cancer (brca) gene test
+breast enlargement
+breast examination, clinical
+breast implants
+breast mri
+breast reduction
+breast self-examination
+breast ultrasound
+bronchoscopy
+bun (blood urea nitrogen) test
+bun:creatinine ratio
+bunion surgery
+bypass surgery for heart attack and unstable angina
+c-peptide
+c-reactive protein (crp)
+ca-125 (cancer antigen) test
+cancer antigen 125 (ca-125)
+carbohydrate antigen (ca-125) test
+carcinoembryonic antigen (cea) level
+cardiac blood pool scan
+cardiac calcium scoring
+cardiac catheterization
+cardiac enzyme studies
+cardiac event monitoring
+cardiac perfusion scan
+carotid angiogram
+carotid endarterectomy for tia and stroke
+cat scan, body
+cat scan, head and face
+cat scan, spine
+cbc (complete blood count)
+cd4+ count
+cea (carcinoembryonic antigen) test
+cerebral angiogram
+cervical biopsy and colposcopy
+cervical cerclage to prevent preterm delivery
+cervical exam
+cervical smear
+cervical spinal fusion
+chemical peel
+chemistry screen
+chest x-ray
+cholesterol and triglycerides tests
+cholesterol health check
+chorionic villus sampling (cvs)
+chromosome analysis
+ck (creatine kinase)
+clinical breast examination
+closure of the vagina (vaginal obliteration)
+cobalamin test
+cold agglutinins test
+colectomy for colorectal cancer
+colonoscopy
+color vision tests
+colostomy for colorectal cancer
+colposcopy and cervical biopsy
+complete blood count (cbc)
+computed tomography (ct) scan of the body
+computed tomography (ct) scan of the head and face
+computed tomography (ct) scan of the spine
+continent ileostomy for inflammatory bowel disease
+contraction stress test
+coombs' test
+cordocentesis
+corneal ring implants for nearsightedness (myopia)
+coronary angiography
+coronary artery bypass graft (cabg) surgery
+coronary artery bypass surgery for coronary artery disease
+coronary artery calcium scoring
+coronary calcium scan
+cortisol suppression test
+cosmetic dentistry slideshow: before &amp; after
+cpk (creatine phosphokinase)
+cranial echogram
+cranial sonogram
+cranial ultrasound
+creatine kinase (ck)
+creatine phosphokinase (cpk)
+creatine phosphokinase-mb isoenzyme (cpk-mb) level
+creatinine and creatinine clearance tests
+crp (c-reactive protein)
+cryosurgery for nonmelanoma skin cancer
+cryotherapy for warts
+ct (computed tomography), body
+ct (computed tomography), head and face
+ct (computed tomography), spine
+ct myelogram
+culture, stool
+curettage and electrosurgery for nonmelanoma skin cancer
+cvs (chorionic villus sampling)
+cyanocobalamin test
+cystectomy for bladder cancer
+cystic fibrosis sweat test
+cystography
+cystometrography
+cystometry
+cystoscopy
+cystourethrogram
+cystourethroscopy
+d-xylose absorption test
+decompressive laminectomy for spinal stenosis
+dental plaque self-exam
+dental x-rays
+dermabrasion
+dexa scan
+dexamethasone suppression test (dst)
+digital rectal examination (dre)
+dilation and curettage (d&amp;c) for bleeding during menopause
+dilation and curettage (d&amp;c) for dysfunctional uterine bleeding
+dilation and evacuation (d&amp;e) for abortion
+dilation and sharp curettage (d&amp;c) for abortion
+dipyridamole stress test
+discectomy or microdiscectomy for a herniated disc
+dix-hallpike test for vertigo
+dna fingerprinting
+dobutamine stress test
+dopamine, test for
+doppler echocardiography
+doppler ultrasound
+drug monitoring
+drug screening test
+dst (dexamethasone suppression test)
+ear exam, home
+ear examination
+ebv antibody test
+ecg (electrocardiogram)
+echocardiogram
+echogram, cranial
+ect (emission computed tomography)
+eeg (electroencephalography)
+ejection fraction study
+ekg (electrocardiogram)
+electrocardiogram
+electrocardiography, ambulatory
+electrocardiography, exercise
+electroencephalogram (eeg)
+electromyogram (emg) and nerve conduction studies
+electron beam computed tomography (ct) scan for coronary artery disease
+electronic fetal heart monitoring
+electronystagmogram (eng)
+electronystagmogram for vertigo
+emg (electromyography)
+endometrial ablation
+endometrial biopsy
+endoscopic carpal tunnel surgery for carpal tunnel syndrome
+endoscopic retrograde cholangiopancreatogram (ercp)
+endoscopic sinus exam for sinusitis
+endoscopic surgery for sinusitis
+endoscopy, upper gastrointestinal
+eng (electronystagmography)
+epinephrine, test for
+epstein-barr antibody test
+ercp (endoscopic retrograde cholangiopancreatogram
+erection problems tests
+esophagram
+esophagus tests
+estradiol level
+estriol level
+estrogens level
+evoked potential test for multiple scler...
+excimer laser photorefractive keratectomy (prk) for nearsightedness
+excimer laser photorefractive keratectomy for farsightedness (h-prk)
+excision for nonmelanoma skin cancer
+exercise electrocardiogram
+expressed prostatic secretions
+extremity x-ray
+eye angiogram
+face x-ray
+face-lift (rhytidectomy)
+facial radiography
+facial x-ray
+fallopian tube procedures for infertility
+family planning, natural
+fasting blood sugar test
+fecal analysis
+fecal culture
+fecal occult blood test (fobt)
+femoropopliteal bypass (fem-pop bypass) for peripheral arterial disease
+fertility awareness
+fetal biophysical profile
+fetal development slideshow
+fetal blood sampling (fbs) for rh sensitization during pregnancy
+fetal heart monitoring
+fetal ultrasound
+fetoscopy
+fibrinogen uptake study
+flap procedure for gum disease
+flexible sigmoidoscopy
+fluorescein angiography
+fluorescein dye test
+folic acid
+follicle-stimulating hormone
+free cortisol test
+fsh (follicle-stimulating hormone) test
+fundoplication surgery for gastroesophageal reflux disease (gerd)
+funduscopy (eye exam)
+fungal culture for athlete's foot
+fungal culture for fungal nail infections
+gait analysis for cerebral palsy
+galactosemia test
+gallbladder scan
+gallium scan
+gamma globulin tests
+gastric ulcer test
+gastrin test
+gated cardiac scan
+genetic test
+gh (growth hormone) levels
+ghb (glycohemoglobin) test
+gingivectomy for gum disease
+glaucoma screening test
+glaucoma test
+globulin test
+glucose challenge test
+glucose tolerance test
+glycohemoglobin (ghb)
+gonioscopy
+goniotomy for glaucoma
+growth hormone levels
+gynecologic exam
+gynecologic ultrasound
+gynecological exam for genital warts (human papillomavirus)
+h. pylori test
+hair analysis
+hair transplantation surgery
+hamster zona-free ovum test
+hav antibody test
+hba1c (hemoglobin a1c) blood test
+hbv antibody tests
+hcg (human chorionic gonadotropin) test
+hdl cholesterol test
+hearing tests
+heart attack enzymes
+heart catheterization
+heart catheterization for congenital heart defects
+heart echocardiogram
+heart transplant
+heart valve repair or replacement for mitral valve regurgitation or prolapse
+helicobacter pylori tests
+hemochromatosis gene test (hfe)
+hemoglobin a1c
+hemoglobin electrophoresis
+hemoglobin s test
+hemorrhoidectomy for hemorrhoids
+hepatitis a virus test
+hepatitis b virus test
+hepatobiliary scan
+herpes tests
+hfe test
+hida scan
+hip replacement surgery
+histocompatibility testing
+history and physical exam for heart failure
+history and physical exam for low back pain
+history and physical examination for copd
+hiv load measurement
+hiv test
+hla (human leukocyte antigen) typing 
+holter monitoring
+home blood glucose test
+home blood pressure test
+home ear examination
+home lung function test
+home pregnancy tests
+home test for urinary tract infections
+homocysteine test
+hormone inhibin-a test
+hsg (hysterosalpingography)
+human chorionic gonadotropin (hcg) quantitative and qualitative blood tests
+human growth hormone (hgh) levels 
+human immunodeficiency virus (hiv) test
+human leukocyte antigen (hla) typing 
+hydrocortisone test
+hysterectomy for endometrial cancer
+hysterectomy for ovarian cancer
+hysterosalpingogram
+hysteroscopy
+hysteroscopy
+idet (intradiscal electrothermic therapy) for low back pain
+ileoanal or ileorectal anastomosis for ulcerative colitis
+immunoglobulins test
+indirect coombs' test
+indocyanine green test
+intracavernosal injection test (for erection problems)
+intradiscal electrothermic therapy (idet) for low back pain
+intravenous pyelogram (ivp)
+iodine uptake test, radioactive
+iron stores (ferritin levels)
+jaw x-ray
+joint fluid analysis
+joint scan
+joint x-ray (arthrogram)
+karyotype test
+ketone test
+kidney biopsy
+kidney scan
+kidney stone analysis
+kidney transplant
+knee mri
+knee replacement surgery
+koh (potassium hydroxide) preparation
+koh (potassium hydroxide) preparation for fungal nail infections
+koh (potassium hydroxide) preparation for oral candidiasis (thrush)
+koh (potassium hydroxide) preparation for ringworm
+koh (potassium hydroxide) preparation test for athlete's foot
+kub x-ray
+lactate test
+lactic acid
+lactic acid dehydrogenase (ldh) -- cardiac enzyme studies
+lactic acid dehydrogenase (ldh) -- lactic acid dehydrogenase (ldh)
+lactogenic hormone level
+laparoscopic gallbladder surgery for gallstones
+laparoscopic inguinal hernia repair
+laparoscopic lymphadenectomy for prostate cancer
+laparoscopic ovarian drilling (ovarian diathermy) for pcos
+laparoscopic surgery for endometriosis
+laparoscopy
+laryngoscopy
+laser in-situ keratomileusis (lasik) for nearsightedness
+laser in-situ keratomileusis for farsightedness (h-lasik)
+laser iridotomy for glaucoma
+laser photocoagulation for age-related macular degeneration
+laser resurfacing
+laser surgery for abnormal cervical cell changes
+laser surgery for genital warts
+laser surgery for warts
+laser trabeculoplasty for glaucoma
+ldh-1 (lactate dehydrogenase isoenzymes) test
+ldl cholesterol test
+leg x-ray
+lh (leutinizing hormone) test
+lipase
+lipid profile
+lipoprotein analysis
+liver and spleen scan
+liver biopsy
+liver function test
+liver resection
+liver tests for hepatitis c
+liver tests for infectious mononucleosis
+loop electrosurgical excision procedure (leep) for abnormal cervical cell changes
+loop electrosurgical excision procedure (leep) for genital warts
+lower gastrointestinal series
+lumbar puncture
+lung angiogram
+lung biopsy
+lung function testing, home
+lung function tests
+lung scan
+lung surgery (thoracotomy) for lung cancer
+lung transplantation for cystic fibrosis
+luteinizing hormone (lh) level
+lyme disease test
+lymph node biopsy
+lymph node removal (lymphadenectomy) for melanoma
+lymphadenectomy for endometrial cancer
+magnetic resonance angiogram (mra)
+magnetic resonance image (mri) of the abdomen
+magnetic resonance image (mri) of the breast
+magnetic resonance image (mri) of the head
+magnetic resonance image (mri) of the knee
+magnetic resonance image (mri) of the shoulder
+magnetic resonance imaging (mri)
+magnetic resonance imaging (mri) of the spine
+male fertility test
+mammogram
+mantoux test
+manual and vacuum aspiration for abortion
+maze procedure for atrial fibrillation
+mediastinoscopy
+medical history and physical exam for a fast heart rate
+medical history and physical exam for a herniated disc
+medical history and physical exam for a slow heart rate
+medical history and physical exam for colorectal cancer
+medical history and physical exam for giardiasis
+medical history and physical exam for hiv infection
+medical history and physical exam for kidney stones
+medical history and physical exam for tuberculosis (tb)
+medical history and physical exam for urinary tract infections
+medical history and physical examination for coronary artery disease
+medical history and physical examination for diverticulitis
+medical history and physical examination for infertility
+medical history and physical examination for irritable bowel syndrome
+medical history and physical examination for juvenile rheumatoid arthritis
+medical history and physical examination for lung cancer
+medical history and physical examination for lupus
+medical history and physical examination for rheumatoid arthritis
+medical history and physical examination for urinary incontinence in men
+medical history and physical examination for urinary incontinence in women
+medical history for pms
+medication monitoring
+meniscectomy for a meniscus tear
+meniscus repair
+mental health assessment
+mental status evaluation
+metanephrine, test for
+microalbumin urine test
+mohs micrographic surgery for nonmelanoma skin cancer
+mononucleosis tests
+monospot test
+mra (magnetic resonance angiography)
+mri (magnetic resonance imaging)
+mri (magnetic resonance imaging), head
+mri (magnetic resonance imaging), spine
+mri of the abdomen
+mri of the knee
+mri of the shoulder
+msafp (maternal serum alpha-fetoprotein) test
+muga scan
+myelogram
+myomectomy
+natural family planning
+neck x-ray
+needle puncture and aspiration of sinus contents for sinusitis
+nerve conduction studies
+neurological examination for multiple sclerosis
+neurotransplantation for parkinson's disease
+nocturnal penile tumescence test
+nonexercise stress test
+norepinephrine, test for
+nose job
+nuclear magnetic resonance imaging
+nuclear magnetic resonance of the spine
+nylen-barany test for vertigo
+obstetric ultrasound
+ogtt (oral glucose tolerance test)
+open carpal tunnel surgery for carpal tunnel syndrome
+open gallbladder surgery for gallstones
+open inguinal hernia repair (herniorrhaphy, hernioplasty)
+open surgery for kidney stones
+open-joint arthroplasty for tm disorders
+ophthalmoscopy
+oral glucose tolerance test
+orbitral x-ray
+orchiectomy
+orchiopexy for undescended testicles
+orthopedic surgery for cerebral palsy
+osmolality test
+osteotomy for osteoarthritis
+otoacoustic emissions (oae) test
+overnight dexamethasone suppression test
+oxytocin challenge test
+pacemaker placement
+pallidotomy (posteroventral pallidotomy)...
+paracentesis
+parathyroid hormone test
+parathyroid and thyroid ultrasound
+parathyroid hormone (pth) level
+parentage testing
+parotid scan
+partial colectomy for diverticular disea...
+partial thromboplastin time (ptt) 
+paternity test
+pelvic exam for endometriosis
+pelvic examination
+pelvic ultrasound
+penile implants for erection problems
+percutaneous umbilical cord sampling (pu...
+pericardial tap
+pericardiocentesis
+perimetry test (visual field testing) fo...
+peritoneal tap
+pet (positron emission tomography) scan
+phalangeal head resection (arthroplasty)...
+phenylketonuria (pku) test
+physical exam and history for osteoarthr...
+physical exam for carpal tunnel syndrome
+physical exam for plantar fasciitis
+physical exam for tennis elbow
+physical examination for genital warts (...
+physical examination for high blood pres...
+physical examination for rotator cuff di...
+physical examination of the knee
+pku (phenylketonuria) screening
+plantar fascia release
+plasma renin activity (pra) test
+pleural tap
+pneumatic retinopexy for retinal detachm...
+po4 (phosphate), urine test
+positron emission tomography
+postcoital test
+postmortem examination
+potassium (k) in urine test
+pra test
+pregnancy: fetal development slideshow
+pregnancy test
+pregnancy tests
+pregnancy ultrasound
+prk (excimer laser photorefractive kerat...
+pro time (pt) test
+proctocolectomy and ileostomy for inflam...
+proctoscopy
+prostate biopsy
+prostate ultrasound
+prostate-specific antigen (psa) test
+prothrombin time (pt) test
+psa (prostate-specific antigen) test
+pt (prothrombin time) test
+pth (parathyroid hormone) test
+ptt (partial thromboplastin time) 
+pulmonary angiogram
+pulmonary function tests
+pulse
+pulse measurement
+pure tone audiometry
+quick strep test
+radial keratotomy (rk) for nearsightedness
+radical inguinal orchiectomy for testicular cancer
+radical prostatectomy
+radioactive iodine uptake test
+radioactive thyroid scan
+radiofrequency palatoplasty for snoring
+radionuclide angiography
+random blood sugar test
+rapid strep test
+rapid strep test for strep throat
+rectal exam
+renal biopsy
+renal scan
+renin assay
+repair of the bladder or urethra
+repair of the rectum (rectocele) or small bowel (enterocele)
+repair of the vaginal wall (vaginal vault prolapse)
+restrictive operations (stomach stapling or gastric banding)
+reticulocyte count
+reticulocyte index (ri) test
+retrograde pyelogram for kidney stones
+retropubic suspension for urinary incontinence in women
+rh blood typing
+rheumatoid factor (rf)
+rhinoplasty
+ri test
+rigidity test (for erection problems)
+rinne test
+root canal treatment
+rotator cuff repair
+rubella test
+salivary gland scan
+scan, cardiac blood pool
+scan, gallbladder
+schilling test
+schwabach test
+scleral buckling surgery for retinal detachment
+scrotal scan
+sedimentation rate (sed rate)
+selective posterior rhizotomy (spr)
+self breast exam (sbe)
+self-exam for dental plaque
+self-exam, vagina
+self-examination for dental plaque
+self-test for breath alcohol
+semen analysis
+sentinel lymph node biopsy
+serum ca (calcium) level
+serum calcium (ca) level
+serum catecholamines levels
+serum chloride (cl) level
+serum creatinine level
+serum ferritin levels
+serum glutamate-pyruvate transaminase (sgpt)
+serum glutamic oxaloacetic transaminase (sgot)
+serum glucose level
+serum hexosaminidase a and b test
+serum iron (fe) t
+serum osmolality level
+serum po4 (phosphate)
+serum sodium level
+serum protein electrophoresis (spe)
+serum protein test
+sestamibi scan
+sgot (serum glutamic oxaloacetic transaminase)
+sgpt (serum glutamate-pyruvate transaminase)
+shoulder mri
+shoulder replacement surgery
+sickle cell test
+sigmoidoscopy (anoscopy, proctoscopy)
+sinus x-ray
+sinus x-ray for sinusitis
+skin and wound cultures
+skin biopsy
+skull x-ray
+sleep studies
+slit lamp exam for glaucoma
+slit lamp examination
+somatotropin
+sonogram, cranial
+sonogram, fetal
+sperm count
+sperm penetration tests
+spinal ct
+spinal fusion (arthrodesis)
+spinal fusion for scoliosis
+spinal mri (magnetic resonance imaging)
+spinal tap
+spinal x-ray
+spleen and liver scan
+sputum culture
+sputum cytology
+stamp test (for erection problems)
+sterilization, female
+stomach ulcer test
+stool analysis
+stool analysis for cystic fibrosis
+stool analysis for giardiasis (also known as ova and parasite test)
+stool antigen test
+stool culture
+stress test
+string test for giardiasis
+subacromial smoothing and acromioplasty for rotator cuff disorders
+summer skin hazards
+surgery for an achilles tendon rupture
+surgery for chronic pelvic pain
+surgery for ovarian cysts
+surgery for tennis elbow
+surgical excision of melanoma
+surgical nail removal for fungal nail infections
+surgical removal of genital warts by excision
+sweat test
+synovectomy for rheumatoid arthritis
+syphilis tests
+t-lymphocyte measurement
+t3 (triiodothyronine) test
+t4 (thyroxine) test
+tay-sachs test
+tb skin test
+technetium scan
+technetium scan of the thyroid
+teeth x-ray
+temperature measurement
+tension-free vaginal tape for stress incontinence in women
+testicular biopsy
+testicular examination and testicular self-examination (tse)
+testicular scan
+testicular ultrasound
+tests for bacterial vaginosis (bv)
+tests for erection problems
+thalamotomy for parkinson's disease
+thallium scan
+therapeutic drug monitoring
+thick and thin blood smears for malaria
+thoracentesis
+throat culture
+thyroid and parathyroid ultrasound
+thyroid biopsy
+thyroid hormone tests
+thyroid scan
+thyroid surgery
+thyroid-stimulating hormone (tsh)
+thyrotropin test
+thyroxine (t4) test
+tibioperoneal bypass surgery for peripheral arterial disease
+tissue type test
+tonometry
+tonsillectomy for strep throat
+tooth extraction
+tooth extraction for gum disease
+total body scan
+total cholesterol test
+total serum protein test
+total testosterone levels
+toxicology tests
+trabeculectomy (filtration surgery) for glaucoma
+trabeculotomy for glaucoma
+traditional sinus surgery for sinusitis
+transesophageal echocardiography
+transrectal ultrasound
+transurethral prostatectomy for prostatitis
+transurethral resection (tur) for bladder cancer
+transvaginal pelvic ultrasound
+transvaginal ultrasound
+treadmill test
+triglycerides and cholesterol tests
+triiodothyronine (t3) test
+tsh (thyroid-stimulating hormone) test
+tube-shunt surgery for glaucoma
+tuberculin skin tests
+tubes for ear infections
+tuning fork test
+tympanocentesis for ear infections
+tympanometry in ear infections (otitis media)
+ultrasound for benign prostatic hyperplasia
+ultrasound for infertility
+ultrasound of testes
+ultrasound, abdominal
+ultrasound, breast
+ultrasound, cranial
+ultrasound, doppler
+ultrasound, fetal
+ultrasound, gynelcologic
+ultrasound, obstetric
+ultrasound, parathyroid
+ultrasound, pelvic
+ultrasound, pregnancy
+ultrasound, prostate
+upper gastrointestinal (ugi) series
+upper gastrointestinal endoscopy
+urea breath test
+urea nitrogen, blood (bun)
+urethral bulking for urinary incontinence
+urethral sling for stress incontinence in women
+urinary uric acid level
+urinalysis
+urinary calcium (ca) level
+urinary catecholamines levels 
+urinary cortisol level
+urinary phosphate
+urinary potassium level
+urinary sodium (na) level
+urinary tract infection home test
+urine culture
+urine po4 (phosphate) test
+urine test
+urine test for microalbuminuria
+urodynamic tests for urinary incontinence
+uroflowmetry
+uterosalpingography
+utrasound, thyroid
+uvulopalatopharyngoplasty for snoring
+vaginal exam for preterm labor
+vaginal self exam
+vaginal self-examination (vse)
+vaginal vault suspension
+vaginal wet mount
+vanillylmandelic acid, test for
+varicocele repair for infertility
+vasectomy
+vasectomy reversal (vasovasostomy)
+vein ligation and stripping
+vein scan
+venogram
+ventilation and perfusion scan
+viral load assay
+viral load measurement
+viral test
+vision tests
+visual examination for lice
+vitamin b12 test
+vitamin b12 absorption test
+vitrectomy
+vse (vaginal self-examination)
+vulvar self-exam
+wall motion study
+wet mount, vaginal
+whispered speech test
+wisdom tooth extraction
+wound and skin cultures
+x-ray, abdominal
+x-ray, arm
+x-ray, back
+x-ray, breast (mammography)
+x-ray, chest
+x-ray, dental
+x-ray, face
+x-ray, leg
+x-ray, neck
+x-ray, orbits
+x-ray, sinus
+x-ray, skull
+x-ray, spinal
+xylose tolerance test
+there are no topics that begin with 'y'
+there are no topics that begin with 'z'
