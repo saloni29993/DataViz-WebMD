@@ -18,10 +18,10 @@ medicaltests = []
 drugs = [line.strip('\n\t\r') for line in open('ScrapedData/drugs.txt')]
 
 #loading symptoms
-symptoms = [line.strip('\n\t\r') for line in open('ScrapedData/symptoms.txt')]
+#symptoms = [line.strip('\n\t\r') for line in open('ScrapedData/symptoms.txt')]
 
 #loading medicaltests
-medicaltests = [line.strip('\n\t\r') for line in open('ScrapedData/medicaltests.txt')]
+#medicaltests = [line.strip('\n\t\r') for line in open('ScrapedData/medicaltests.txt')]
 
 
 # #iterating through questions
@@ -30,4 +30,3 @@ medicaltests = [line.strip('\n\t\r') for line in open('ScrapedData/medicaltests.
 # 	answer_blocks = filter(lambda x: x['questionId'] == q['questionId'], data_answers)
 # 	pprint(answer_blocks)
 
-print drugs
