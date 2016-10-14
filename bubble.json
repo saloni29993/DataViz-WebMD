@@ -2,6 +2,90 @@
  "name": "flare",
  "children": [
   {
+  "name": "Gender Specific",
+  "children": [
+    {
+       "name": "Women",
+       "children": [
+        {"name":"uterus", "size": 86 },
+        {"name": "pregnancy", "size": 1765},
+        {"name": "period", "size": 1675},
+        {"name": "vagina", "size": 485},
+        {"name": "breast", "size": 367},
+        {"name": "birth control", "size": 371},
+        {"name": "pregnancy-test", "size": 250},
+        {"name": "ovulation", "size": 154},
+        {"name":"nipple", "size": 103 },
+        {"name":"feeding", "size": 72 },
+        {"name":"breast-cancer", "size": 51},
+        {"name":"clitoris", "size": 39 },
+        {"name":"vaginal-discharge", "size": 42 },
+        {"name":"hemorrhoid", "size": 40 },
+        {"name":"menstrual", "size": 38 },
+        {"name":"menopause", "size": 114 },
+        {"name":"miscarriage", "size": 80 },
+        {"name":"tampon", "size": 56 },
+        {"name":"ovary", "size": 123 },
+        {"name":"cervix", "size": 56 },
+        {"name":"hysterectomy", "size": 115 },
+        {"name":"birth", "size": 71 }
+       ]
+      },
+      {
+       "name": "Men",
+       "children": [
+        {"name":"prostate", "size": 59 },
+        {"name":"vasectomy", "size": 32 },
+        {"name": "penis", "size": 565},
+        {"name": "chest", "size": 322},
+        {"name": "testicle", "size": 148},
+        {"name": "erection", "size": 169},
+        {"name": "masturbation", "size": 192},
+        {"name":"sperm", "size": 122},
+        {"name":"scrotum", "size": 43},
+        {"name":"foreskin", "size": 56 },
+        {"name":"erectile-dysfunction", "size": 48 },
+        {"name":"testosterone", "size": 79 }
+       ]
+      }
+
+    ]
+  },
+  {
+  "name": "Food & Drugs",
+  "children": [
+
+    {
+     "name": "Alcohol & Drugs",
+     "children": [
+      {"name":"drug-test", "size": 86 },
+      {"name":"marijuana", "size": 67 },
+      {"name": "Drinking", "size": 567},
+      {"name": "Drugs", "size": 519},
+      {"name": "Smoking", "size": 190},
+      {"name":"alcoholism", "size": 32},
+      {"name":"steroid", "size": 66 },
+      {"name":"insulin", "size": 58 },
+      {"name":"antibiotic", "size": 412 } 
+     ]
+    },
+    {
+     "name": "Food",
+     "children": [
+      {"name":"supplement", "size": 76 },
+      {"name":"salt", "size": 57 },
+      {"name": "food", "size": 454},
+      {"name":"milk", "size": 128 },
+      {"name":"soda", "size": 48 },
+      {"name":"coffee", "size": 62 },
+      {"name":"meat", "size": 42 },
+      {"name":"tea", "size": 54 },
+      {"name":"caffeine", "size": 36 }
+     ]
+    }
+    ]
+  },
+  {
      "name": "Sexual Problems",
      "children": [
       {"name":"chlamydia", "size": 86 },
@@ -18,48 +102,36 @@
      ]
     },
     {
-     "name": "Women",
-     "children": [
-      {"name":"uterus", "size": 86 },
-      {"name": "pregnancy", "size": 1765},
-      {"name": "period", "size": 1675},
-      {"name": "vagina", "size": 485},
-      {"name": "breast", "size": 367},
-      {"name": "birth control", "size": 371},
-      {"name": "pregnancy-test", "size": 250},
-      {"name": "ovulation", "size": 154},
-      {"name":"nipple", "size": 103 },
-      {"name":"feeding", "size": 72 },
-      {"name":"breast-cancer", "size": 51},
-      {"name":"clitoris", "size": 39 },
-      {"name":"vaginal-discharge", "size": 42 },
-      {"name":"hemorrhoid", "size": 40 },
-      {"name":"menstrual", "size": 38 },
-      {"name":"menopause", "size": 114 },
-      {"name":"miscarriage", "size": 80 },
-      {"name":"tampon", "size": 56 },
-      {"name":"ovary", "size": 123 },
-      {"name":"cervix", "size": 56 },
-      {"name":"hysterectomy", "size": 115 },
-      {"name":"birth", "size": 71 }
-     ]
-    },
-    {
-     "name": "Men",
-     "children": [
-      {"name":"prostate", "size": 59 },
-      {"name":"vasectomy", "size": 32 },
-      {"name": "penis", "size": 565},
-      {"name": "chest", "size": 322},
-      {"name": "testicle", "size": 148},
-      {"name": "erection", "size": 169},
-      {"name": "masturbation", "size": 192},
-      {"name":"sperm", "size": 122},
-      {"name":"scrotum", "size": 43},
-      {"name":"foreskin", "size": 56 },
-      {"name":"erectile-dysfunction", "size": 48 },
-      {"name":"testosterone", "size": 79 }
-     ]
+      "name": "Sensory Organs",
+      "children": [
+        {
+           "name": "Eyes",
+           "children": [
+            {"name": "vision", "size": 863},
+            {"name": "eyes", "size": 446},
+            {"name": "pink-eye", "size": 34},
+            {"name":"eyelid", "size": 38 }
+           ]
+          },
+          {
+           "name": "Ears",
+           "children": [
+            {"name":"tinnitus", "size": 51 },
+            {"name":"ear-infection", "size": 71 },
+            {"name":"ears", "size": 397 }
+           ]
+          },
+          {
+           "name": "Mouth",
+           "children": [
+            {"name":"lip", "size": 137 },
+            {"name":"mouth", "size": 242 },
+            {"name":"tooth", "size": 240 },
+            {"name":"tongue", "size": 94 },
+            {"name":"jaw", "size": 67 }
+           ]
+          }
+      ]
     },
     {
      "name": "Heart Problems",
@@ -131,19 +203,6 @@
      ]
     },
     {
-     "name": "Head & Mouth",
-     "children": [
-      {"name":"lightheadedness", "size": 63 },
-      {"name":"migraine", "size": 97 },
-      {"name":"forehead", "size": 40 },
-      {"name":"lip", "size": 137 },
-      {"name":"mouth", "size": 242 },
-      {"name":"tooth", "size": 240 },
-      {"name":"tongue", "size": 94 },
-      {"name":"jaw", "size": 67 }
-     ]
-    },
-    {
      "name": "Cancer",
      "children": [
       {"name":"prostate-cancer", "size": 48 },
@@ -162,15 +221,6 @@
       {"name":"tightness", "size": 93 },
       {"name": "Pain", "size": 2078},
       {"name": "back-pain", "size": 171}
-     ]
-    },
-    {
-     "name": "Eyes",
-     "children": [
-      {"name": "vision", "size": 863},
-      {"name": "eyes", "size": 446},
-      {"name": "pink-eye", "size": 34},
-      {"name":"eyelid", "size": 38 }
      ]
     },
     {
@@ -222,20 +272,6 @@
      ]
     },
     {
-     "name": "Food",
-     "children": [
-      {"name":"supplement", "size": 76 },
-      {"name":"salt", "size": 57 },
-      {"name": "food", "size": 454},
-      {"name":"milk", "size": 128 },
-      {"name":"soda", "size": 48 },
-      {"name":"coffee", "size": 62 },
-      {"name":"meat", "size": 42 },
-      {"name":"tea", "size": 54 },
-      {"name":"caffeine", "size": 36 }
-     ]
-    },
-    {
      "name": "Brain & Spine",
      "children": [
       {"name":"vertigo", "size": 38 },
@@ -245,29 +281,6 @@
       {"name":"bipolar-disorder", "size": 54 },
       {"name":"seizure", "size": 70 },
       {"name":"brain", "size": 112 }
-     ]
-    },
-    {
-     "name": "Ears",
-     "children": [
-      {"name":"tinnitus", "size": 51 },
-      {"name": "ears", "size": 397},
-      {"name":"ear-infection", "size": 71 },
-      {"name":"ears", "size": 397 }
-     ]
-    },
-    {
-     "name": "Alcohol & Drugs",
-     "children": [
-      {"name":"drug-test", "size": 86 },
-      {"name":"marijuana", "size": 67 },
-      {"name": "Drinking", "size": 567},
-      {"name": "Drugs", "size": 519},
-      {"name": "Smoking", "size": 190},
-      {"name":"alcoholism", "size": 32},
-      {"name":"steroid", "size": 66 },
-      {"name":"insulin", "size": 58 },
-      {"name":"antibiotic", "size": 412 } 
      ]
     },
     {
