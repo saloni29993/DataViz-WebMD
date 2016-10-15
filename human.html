@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script src="http://d3js.org/d3.v2.js"></script>
+
+    </head>
+    <body>
+        <script type="text/javascript">
+            var svg = d3.select("body")
+                .append("svg")
+                .attr("width", 2000)
+                .attr("height", 1000)
+                .style("border", "1px solid black")
+                .style("background", "red");
+
+            var text = svg.selectAll("text")
+                .data([0])
+                .enter()
+                .append("text")
+                .text("Testing")
+                .attr("x", "40")
+                .attr("y", "60");
+
+            var imgs = svg.selectAll("image").data([0]);
+                imgs.enter()
+                .append("svg:image")
+                .attr("xlink:href", "01.jpg")
+                .attr("x", "60")
+                .attr("y", "60")
+                .attr("width", "600")
+                .attr("height", "600");
+
+        </script>
+    </body>
+</html>
