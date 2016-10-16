@@ -1,0 +1,9 @@
+[
+{"name":"d1","size":3938,"imports":["d2","d3","d4","d5"]},
+{"name":"d2","size":3938,"imports":["d3","d4","d5"]},
+{"name":"d3","size":3938,"imports":["d2","d4","d5"]},
+{"name":"d4","size":3938,"imports":["d2","d3","d5"]},
+{"name":"d5","size":3938,"imports":["d1","d4","d2"]},
+{"name":"d6","size":3938,"imports":["d3","d2","d1"]},
+{"name":"flare.vis.operator.layout.RandomLayout","size":870,"imports":["flare.vis.operator.layout.Layout","flare.vis.data.DataSprite","flare.vis.data.Data"]}
+]

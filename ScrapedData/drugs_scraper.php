@@ -5,7 +5,7 @@
 
    $furl=array();
 
-   foreach($base_url->find("div#drugs-az-list ul#drugs_view li a") as $url){
+   foreach($base_url->find("div#drugs- ul#drugs_view li a") as $url){
       $newurl=$url->href;
       $purl="https://www.webmd.com".$newurl;
       array_push($furl,$purl);
@@ -16,7 +16,7 @@
    foreach ($furl as $key) {
       {
          $newkey=file_get_html($key);
-         foreach($newkey->find("div#drugs-az-list ul li p") as $a){
+         foreach($newkey->find("div#az-content ul li p") as $a){
             $data = strtolower($a->plaintext);
             array_push($scraped_data, $data);
          }
