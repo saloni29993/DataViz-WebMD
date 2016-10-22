@@ -2,35 +2,85 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <script src="http://d3js.org/d3.v2.js"></script>
-
+        <style type="text/css">
+            .main{
+                position:absolute;
+                top:0px;
+                left:0px;
+            }
+            .men{
+                position: relative;
+                float: left;
+                height: 560px;
+                width: 296px;
+            }
+            .women{
+                position: relative;
+                float: left;
+                height: 560px;
+                width: 296px;
+                background-color: blue;
+            }
+            .m-head {
+                height: 20%;
+                background-color: yellow;
+            }
+            .m-ubody {
+                height: 24%;
+                background-color: pink;
+            }
+            .m-lbody {
+                height: 18%;
+                background-color: blue;
+            }
+            .m-legs {
+                height: 38%;
+                background-color: red;
+            }
+            .w-head {
+                height: 23%;
+                background-color: yellow;
+            }
+            .w-ubody {
+                height: 23%;
+                background-color: pink;
+            }
+            .w-lbody {
+                height: 16%;
+                background-color: blue;
+            }
+            .w-legs {
+                height: 38%;
+                background-color: red;
+            }
+        </style>
     </head>
     <body>
-        <script type="text/javascript">
-            var svg = d3.select("body")
-                .append("svg")
-                .attr("width", 2000)
-                .attr("height", 1000)
-                .style("border", "1px solid black")
-                .style("background", "red");
-
-            var text = svg.selectAll("text")
-                .data([0])
-                .enter()
-                .append("text")
-                .text("Testing")
-                .attr("x", "40")
-                .attr("y", "60");
-
-            var imgs = svg.selectAll("image").data([0]);
-                imgs.enter()
-                .append("svg:image")
-                .attr("xlink:href", "01.jpg")
-                .attr("x", "60")
-                .attr("y", "60")
-                .attr("width", "600")
-                .attr("height", "600");
-
-        </script>
+        <div class="holder">
+            <div class="men">
+                <div class="m-head">
+                </div>
+                <div class="m-ubody">
+                </div>
+                <div class="m-lbody">
+                </div>
+                <div class="m-legs">    
+                </div>
+            </div>
+            <div class="women">
+                <div class="w-head">
+                </div>
+                <div class="w-ubody">
+                </div>
+                <div class="w-lbody">
+                </div>
+                <div class="w-legs">    
+                </div>      
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+            width="600px" height="570px" class="main">
+                <image xlink:href="humans1.png" x="0" y="0" height="570px" width="600px"/>
+            </svg>
+        </div>
     </body>
 </html>
