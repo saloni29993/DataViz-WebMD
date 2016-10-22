@@ -62,10 +62,10 @@ for q in question:
 #extract disease from answers
 for a in answer:
 	#extract disease
-	med_diseases = dl.get_close_matches(a,diseases,10,0.6)
+	med_diseases = dl.get_close_matches(a,diseases,10,0.7)
 
 	#extract symptom
-	med_symptoms = dl.get_close_matches(a,symptoms,10,0.6)
+	med_symptoms = dl.get_close_matches(a,symptoms,10,0.7)
 
 	for d in med_diseases:
 		if d not in chord_dict.keys():
