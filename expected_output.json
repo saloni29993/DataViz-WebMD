@@ -1,0 +1,263 @@
+[
+  {
+    "imports": [
+      "headache"
+    ],
+    "name": "headache, spinal",
+    "size": 1
+  },
+  {
+    "imports": [
+      "testicular torsion",
+      "testicular cancer"
+    ],
+    "name": "testicle pain",
+    "size": 1
+  },
+  {
+    "imports": [
+      "ear infections"
+    ],
+    "name": "cyclospora infection",
+    "size": 1
+  },
+  {
+    "imports": [
+      "heel pain",
+      "chest pain",
+      "chest wall pain",
+      "breast pain"
+    ],
+    "name": "chest pain",
+    "size": 1
+  },
+  {
+    "imports": [
+      "depression"
+    ],
+    "name": "teen depression",
+    "size": 1
+  },
+  {
+    "imports": [
+      "depression"
+    ],
+    "name": "major depression",
+    "size": 1
+  },
+  {
+    "imports": [
+      "ear infections"
+    ],
+    "name": "bone infection",
+    "size": 1
+  },
+  {
+    "imports": [
+      "ear infections"
+    ],
+    "name": "mrsa infection",
+    "size": 1
+  },
+  {
+    "imports": [
+      "muscle strain",
+      "muscle cramp"
+    ],
+    "name": "muscle strain",
+    "size": 1
+  },
+  {
+    "imports": [
+      "muscle strain"
+    ],
+    "name": "muscle cramp",
+    "size": 1
+  },
+  {
+    "imports": [
+      "sciatica"
+    ],
+    "name": "sciatica",
+    "size": 1
+  },
+  {
+    "imports": [
+      "major depression",
+      "depression",
+      "teen depression"
+    ],
+    "name": "depression",
+    "size": 1
+  },
+  {
+    "imports": [
+      "ear infections"
+    ],
+    "name": "outer ear infection",
+    "size": 1
+  },
+  {
+    "imports": [
+      "chest pain"
+    ],
+    "name": "chest wall pain",
+    "size": 1
+  },
+  {
+    "imports": [
+      "ear infections"
+    ],
+    "name": "aortic dissection",
+    "size": 1
+  },
+  {
+    "imports": [
+      "drug allergy"
+    ],
+    "name": "egg allergy",
+    "size": 1
+  },
+  {
+    "imports": [
+      "cyclospora infection",
+      "ear infection",
+      "bone infection",
+      "parvovirus infection",
+      "breast infection",
+      "yeast infection",
+      "mrsa infection",
+      "aortic dissection",
+      "outer ear infection",
+      "pinworm infection"
+    ],
+    "name": "ear infections",
+    "size": 1
+  },
+  {
+    "imports": [
+      "testicle pain"
+    ],
+    "name": "testicular cancer",
+    "size": 1
+  },
+  {
+    "imports": [
+      "chest pain"
+    ],
+    "name": "heel pain",
+    "size": 1
+  },
+  {
+    "imports": [
+      "drug allergy"
+    ],
+    "name": "mold allergy",
+    "size": 1
+  },
+  {
+    "imports": [
+      "headache"
+    ],
+    "name": "headache, migraine",
+    "size": 1
+  },
+  {
+    "imports": [
+      "drug allergy"
+    ],
+    "name": "food allergy",
+    "size": 1
+  },
+  {
+    "imports": [
+      "headache"
+    ],
+    "name": "headache, sinus",
+    "size": 1
+  },
+  {
+    "imports": [
+      "headache, spinal",
+      "headache, sinus",
+      "headache, migraine"
+    ],
+    "name": "headache",
+    "size": 1
+  },
+  {
+    "imports": [
+      "ear infections"
+    ],
+    "name": "ear infection",
+    "size": 1
+  },
+  {
+    "imports": [
+      "ear infections"
+    ],
+    "name": "parvovirus infection",
+    "size": 1
+  },
+  {
+    "imports": [
+      "food allergy",
+      "drug allergy",
+      "egg allergy",
+      "sun allergy",
+      "mold allergy",
+      "cold allergy"
+    ],
+    "name": "drug allergy",
+    "size": 1
+  },
+  {
+    "imports": [
+      "chest pain"
+    ],
+    "name": "breast pain",
+    "size": 1
+  },
+  {
+    "imports": [
+      "drug allergy"
+    ],
+    "name": "sun allergy",
+    "size": 1
+  },
+  {
+    "imports": [
+      "ear infections"
+    ],
+    "name": "breast infection",
+    "size": 1
+  },
+  {
+    "imports": [
+      "ear infections"
+    ],
+    "name": "pinworm infection",
+    "size": 1
+  },
+  {
+    "imports": [
+      "testicle pain"
+    ],
+    "name": "testicular torsion",
+    "size": 1
+  },
+  {
+    "imports": [
+      "ear infections"
+    ],
+    "name": "yeast infection",
+    "size": 1
+  },
+  {
+    "imports": [
+      "drug allergy"
+    ],
+    "name": "cold allergy",
+    "size": 1
+  }
+]

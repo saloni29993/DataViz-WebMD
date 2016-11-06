@@ -24,9 +24,7 @@ path.chord {
         <div class="hint"></div>
       </div>
     </div>
-<script type="text/javascript">
-
-window.topicQuestionInput = "pain-questions";
+    <script type="text/javascript">
 
 var w = 1280,
     h = 800,
@@ -50,21 +48,12 @@ var svg = d3.select("#body").append("svg:svg")
   .append("svg:g")
     .attr("transform", "translate(" + (w) / 2 + "," + (h) / 2 + ")");
 
-d3.json("flare.json", function(imports) {
+d3.json("bubble.json", function(imports) {
   var indexByName = {},
       nameByIndex = {},
       matrix = [],
       n = 0;
 
-//Adding logic for detecting the topic
-  var disease_list = [];
-  imports.forEach(function(d) {
-    if (d.topic == window.topicQuestionInput)
-      disease_list = d.disease_list;
-  });
-
-
-  //console.log(imports);
   self.names = [];
 
   // Returns the Flare package name for the given class name.
@@ -73,9 +62,8 @@ d3.json("flare.json", function(imports) {
   }
 
   // Compute a unique index for each package name.
-  disease_list.forEach(function(d) {
+  imports.forEach(function(d) {
     d = name(d.name);
-    //console.log(d);
     if (!(d in indexByName)) {
       nameByIndex[n] = d;
       indexByName[d] = n++;
@@ -84,7 +72,7 @@ d3.json("flare.json", function(imports) {
   });
 
   // Construct a square matrix counting package imports.
-  disease_list.forEach(function(d) {
+  imports.forEach(function(d) {
     var source = indexByName[name(d.name)],
         row = matrix[source];
     if (!row) {
