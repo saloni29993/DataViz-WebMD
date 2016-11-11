@@ -26,7 +26,7 @@ path.chord {
     </div>
 <script type="text/javascript">
 
-window.topicQuestionInput = "pain-questions";
+window.topicQuestionInput = "pregnancy-questions";
 
 var w = 1280,
     h = 800,
@@ -50,7 +50,7 @@ var svg = d3.select("#body").append("svg:svg")
   .append("svg:g")
     .attr("transform", "translate(" + (w) / 2 + "," + (h) / 2 + ")");
 
-d3.json("flare.json", function(imports) {
+d3.json("chord_topics.json", function(imports) {
   var indexByName = {},
       nameByIndex = {},
       matrix = [],
