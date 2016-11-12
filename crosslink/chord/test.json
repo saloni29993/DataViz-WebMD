@@ -1,0 +1,8 @@
+[
+{"name":"d1","size":1,"imports":["d2","d3","d4","d5"]},
+{"name":"d2","size":1,"imports":["d3","d4","d5"]},
+{"name":"d3","size":1,"imports":["d2","d4","d5"]},
+{"name":"d4","size":1,"imports":["d2","d3","d5"]},
+{"name":"d5","size":1,"imports":["d1","d4","d2"]},
+{"name":"d6","size":1,"imports":["s3","s2","d1"]}
+]

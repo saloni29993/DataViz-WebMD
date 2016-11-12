@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="utf-8">
+<style>
+
+text {
+      font-size: 14px;
+    }
+
+path.chord {
+  fill-opacity: .80;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node:hover {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node--leaf {
+  fill: white;
+}
+
+.label {
+  font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+.label,
+.node--root,
+.node--leaf {
+  pointer-events: none;
+}
+
+.space {
+  display: inline-block;
+  vertical-align: text-top; 
+}
+
+</style>
+
+<body>
+  <div class="space">
+    <svg id="bubble" width="600" height="600"></svg>
+  </div>
+
+
+
+<div class="space" id="body">
+  <div id="footer">
+
+    <div class="hint"></div>
+  </div>
+</div>
+
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<!-- Bubble Chart -->
+<script>
+var d3v4 = d3;
+console.log("for bubble" +JSON.stringify(d3v4));
+var svg = d3v4.select("#bubble"),
+    margin = 20,
+    diameter = +svg.attr("width"),
+    g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+
+var color = d3v4.scaleLinear()
+    .domain([-1, 5])
+    .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
+    .interpolate(d3v4.interpolateHcl);
+
+var pack = d3v4.pack()
+    .size([diameter - margin, diameter - margin])
+    .padding(2);
+
+d3v4.json("bubble.json", function(error, root) {
+  if (error) throw error;
+
+  root = d3v4.hierarchy(root)
+      .sum(function(d) { return d.size; })
+      .sort(function(a, b) { return b.value - a.value; });
+
+  var focus = root,
+      nodes = pack(root).descendants(),
+      view;
+
+  var circle = g.selectAll("circle")
+    .data(nodes)
+    .enter().append("circle")
+      .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
+      .style("fill", function(d) { return d.children ? color(d.depth) : null; })
+      .on("click", function(d) { 
+        if (focus !== d) zoom(d), d3v4.event.stopPropagation(); 
+      });
+
+  var text = g.selectAll("text")
+    .data(nodes)
+    .enter().append("text")
+      .attr("class", "label")
+      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
+      .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
+      .text(function(d) { return d.data.name; });
+
+  var node = g.selectAll("circle,text");
+
+  svg
+      .style("background", "white")
+      .on("click", function() { zoom(root); });
+
+  zoomTo([root.x, root.y, root.r * 2 + margin]);
+
+  function zoom(d) {
+    var focus0 = focus; focus = d;
+
+    var transition = d3v4.transition()
+        .duration(d3v4.event.altKey ? 7500 : 750)
+        .tween("zoom", function(d) {
+          var i = d3v4.interpolateZoom(view, [focus.x, focus.y, focus.r * 2 + margin]);
+          return function(t) { zoomTo(i(t)); };
+        });
+
+    transition.selectAll("text")
+      .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
+        .style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
+        .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
+        .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
+  }
+
+  function zoomTo(v) {
+    var k = diameter / v[2]; view = v;
+    node.attr("transform", function(d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });
+    circle.attr("r", function(d) { return d.r * k; });
+  }
+});
+
+</script>
+
+<!-- ####################################################################################################### -->
+
+
+<script src="https://d3js.org/d3.v3.min.js"></script>
+
+
+<!-- Chord Chart -->
+<script type="text/javascript">
+var d3v3 = d3;
+console.log("for chord" +JSON.stringify(d3v3));
+window.topicQuestionInput = "pregnancy-questions";
+
+var w = 700,
+    h = 700,
+    r1 = (h-200) / 2,
+    r0 = r1 - 80;
+
+var fill = d3v3.scale.category20c(); //d3v3.scaleOrdinal(d3v3.schemeCategory20c);
+
+var chord = d3v3.layout.chord()
+    .padding(.04)
+    .sortSubgroups(d3v3.descending)
+    .sortChords(d3v3.descending);
+
+var arc = d3v3.svg.arc()
+    .innerRadius(r0)
+    .outerRadius(r0 + 20);
+
+var svg = d3v3.select("#body").append("svg:svg")
+    .attr("width", w)
+    .attr("height", h)
+  .append("svg:g")
+    .attr("transform", "translate(" + (w) / 2 + "," + (h) / 2 + ")");
+
+d3v3.json("chord_topics.json", function(imports) {
+  var indexByName = {},
+      nameByIndex = {},
+      matrix = [],
+      n = 0;
+
+//Adding logic for detecting the topic
+  var disease_list = [];
+  imports.forEach(function(d) {
+    if (d.topic == window.topicQuestionInput)
+      disease_list = d.disease_list;
+  });
+
+
+  //console.log(imports);
+  self.names = [];
+
+  // Returns the Flare package name for the given class name.
+  function name(name) {
+    return name;
+  }
+
+  // Compute a unique index for each package name.
+  disease_list.forEach(function(d) {
+    d = name(d.name);
+    //console.log(d);
+    if (!(d in indexByName)) {
+      nameByIndex[n] = d;
+      indexByName[d] = n++;
+      names.push(d);
+    }
+  });
+
+  // Construct a square matrix counting package imports.
+  disease_list.forEach(function(d) {
+    var source = indexByName[name(d.name)],
+        row = matrix[source];
+    if (!row) {
+     row = matrix[source] = [];
+     for (var i = -1; ++i < n;) row[i] = 0;
+    }
+    d.imports.forEach(function(d) { row[indexByName[name(d)]]++; });
+  });
+
+  chord.matrix(matrix);
+
+  var g = svg.selectAll("g.group")
+      .data(chord.groups)
+    .enter().append("svg:g")
+      .attr("class", "group")
+      .on("mouseover", fade(.02))
+      .on("mouseout", fade(.80));
+
+  g.append("svg:path")
+      .style("stroke", function(d) { return fill(d.index); })
+      .style("fill", function(d) { return fill(d.index); })
+      .attr("d", arc);
+
+  g.append("svg:text")
+      .each(function(d) { d.angle = (d.startAngle + d.endAngle) / 2; })
+      .attr("dy", ".35em")
+      .attr("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
+      .attr("transform", function(d) {
+        return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")"
+            + "translate(" + (r0 + 26) + ")"
+            + (d.angle > Math.PI ? "rotate(180)" : "");
+      })
+      .text(function(d) { return nameByIndex[d.index]; });
+
+  svg.selectAll("path.chord")
+      .data(chord.chords)
+    .enter().append("svg:path")
+      .attr("class", "chord")
+      .style("stroke", function(d) { return d3v3.rgb(fill(d.source.index)).darker(); })
+      .style("fill", function(d) { return fill(d.source.index); })
+      .attr("d", d3v3.svg.chord().radius(r0));
+
+});
+
+// Returns an event handler for fading a given chord group.
+function fade(opacity) {
+  return function(d, i) {
+    svg.selectAll("path.chord")
+        .filter(function(d) { return d.source.index != i && d.target.index != i; })
+      .transition()
+        .style("stroke-opacity", opacity)
+        .style("fill-opacity", opacity);
+  };
+}
+
+</script>
+
+</body>
+</html>
