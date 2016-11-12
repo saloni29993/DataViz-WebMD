@@ -170,9 +170,7 @@
       {"name":"stomach", "size": 590 },
       {"name":"diarrhea", "size": 196 },
       {"name":"belly-button", "size": 53 },
-      {"name":"cholesterol", "size": 97 },
-      {"name":"bowel-movement", "size": 140 },
-      {"name":"heartburn", "size": 64 }
+      {"name":"bowel-movement", "size": 140 }
      ]
     },
     {
@@ -198,8 +196,7 @@
       {"name":"wrist", "size": 77 },
       {"name":"shoulder", "size": 172 },
       {"name":"thigh", "size": 120 },
-      {"name":"leg", "size": 524 },
-      {"name":"heartburn", "size": 64 }
+      {"name":"leg", "size": 524 }
      ]
     },
     {
