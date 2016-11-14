@@ -34,7 +34,7 @@ path.chord {
 .label,
 .node--root,
 .node--leaf {
-  pointer-events: all;
+  pointer-events: auto;
 }
 
 .space {
@@ -98,7 +98,11 @@ d3v4.json("bubble.json", function(error, root) {
       .style("fill", function(d) { return d.children ? color(d.depth) : null; })
       .on("click", function(d) { 
         if (d3.select(this).classed("node--leaf")) {
-          alert(d.data.name); //open URL here
+          //alert(d.data.name); //open URL here
+
+          //Heart of interaction with other charts
+          updateChart(d.data.name);
+
         } else {
           if (focus !== d) zoom(d); d3.event.stopPropagation(); 
         }
@@ -175,6 +179,17 @@ var arc = d3v3.svg.arc()
     .outerRadius(r0 + 20);
 
 var svg = d3v3.select("#body").append("svg:svg")
+    .attr("class","temp_class")
+    .attr("width", w)
+    .attr("height", h)
+  .append("svg:g")
+    .attr("transform", "translate(" + (w) / 2 + "," + (h) / 2 + ")");
+
+function updateChart(param) {
+
+d3v3.select("#body svg").remove();
+
+var svg = d3v3.select("#body").append("svg:svg")
     .attr("width", w)
     .attr("height", h)
   .append("svg:g")
@@ -189,7 +204,7 @@ d3v3.json("chord_topics.json", function(imports) {
 //Adding logic for detecting the topic
   var disease_list = [];
   imports.forEach(function(d) {
-    if (d.topic == window.topicQuestionInput)
+    if (d.topic == param+"-questions") //window.topicQuestionInput)
       disease_list = d.disease_list;
   });
 
@@ -258,6 +273,8 @@ d3v3.json("chord_topics.json", function(imports) {
       .attr("d", d3v3.svg.chord().radius(r0));
 
 });
+
+}
 
 // Returns an event handler for fading a given chord group.
 function fade(opacity) {
