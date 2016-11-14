@@ -24,7 +24,7 @@
 .label,
 .node--root,
 .node--leaf {
-  pointer-events: none;
+  pointer-events: all;
 }
 
 </style>
@@ -63,7 +63,12 @@ d3.json("bubble.json", function(error, root) {
       .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
       .style("fill", function(d) { return d.children ? color(d.depth) : null; })
       .on("click", function(d) { 
-        if (focus !== d) zoom(d), d3.event.stopPropagation(); 
+        if (d3.select(this).classed("node--leaf")) {
+          alert(d.data.name); //open URL here
+        } else {
+          if (focus !== d) zoom(d); d3.event.stopPropagation(); 
+        }
+        
       });
 
   var text = g.selectAll("text")

@@ -34,7 +34,7 @@ path.chord {
 .label,
 .node--root,
 .node--leaf {
-  pointer-events: none;
+  pointer-events: all;
 }
 
 .space {
@@ -46,7 +46,7 @@ path.chord {
 
 <body>
   <div class="space">
-    <svg id="bubble" width="600" height="600"></svg>
+    <svg id="bubble" width="500" height="500"></svg>
   </div>
 
 
@@ -63,7 +63,7 @@ path.chord {
 <!-- Bubble Chart -->
 <script>
 var d3v4 = d3;
-console.log("for bubble" +JSON.stringify(d3v4));
+//console.log("for bubble" +JSON.stringify(d3v4));
 var svg = d3v4.select("#bubble"),
     margin = 20,
     diameter = +svg.attr("width"),
@@ -89,13 +89,19 @@ d3v4.json("bubble.json", function(error, root) {
       nodes = pack(root).descendants(),
       view;
 
+  //console.log("FOcus : " + JSON.stringify(focus));
+
   var circle = g.selectAll("circle")
     .data(nodes)
     .enter().append("circle")
       .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
       .style("fill", function(d) { return d.children ? color(d.depth) : null; })
       .on("click", function(d) { 
-        if (focus !== d) zoom(d), d3v4.event.stopPropagation(); 
+        if (d3.select(this).classed("node--leaf")) {
+          alert(d.data.name); //open URL here
+        } else {
+          if (focus !== d) zoom(d); d3.event.stopPropagation(); 
+        }
       });
 
   var text = g.selectAll("text")
@@ -149,12 +155,12 @@ d3v4.json("bubble.json", function(error, root) {
 <!-- Chord Chart -->
 <script type="text/javascript">
 var d3v3 = d3;
-console.log("for chord" +JSON.stringify(d3v3));
+//console.log("for chord" +JSON.stringify(d3v3));
 window.topicQuestionInput = "pregnancy-questions";
 
-var w = 700,
-    h = 700,
-    r1 = (h-200) / 2,
+var w = 600,
+    h = 500,
+    r1 = (h-110) / 2,
     r0 = r1 - 80;
 
 var fill = d3v3.scale.category20c(); //d3v3.scaleOrdinal(d3v3.schemeCategory20c);
