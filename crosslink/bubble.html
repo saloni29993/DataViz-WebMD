@@ -78,8 +78,9 @@ path.chord {
 }
 
 .holder {
-  width: 300px;
-  height: 300px;
+  margin: 20px;
+  width: 400px;
+  height: 400px;
   position: relative;
 }
 
@@ -88,7 +89,7 @@ path.chord {
   z-index: 1;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 50%;
   height: 100%;
 }
 
@@ -97,14 +98,47 @@ path.chord {
   z-index: 1;
   top: 0;
   right: 0;
-  width: 100%;
+  width: 50%;
   height: 100%;
+}
+
+.heading {
+  height: 45px;
+  background-color: #383838;
+  text-align: center;
+  color: white;
+}
+
+.heading h3 {
+  padding: 0;
+  margin: 0;
+  font-family: "Century Gothic";
+  font-size: 1.5em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+.placeholder {
+  height: 10px;
+}
+
+.bub {
+  margin: 20px;
 }
 
 </style>
 
 <body>
-  <div class="space">
+  <div class="heading">
+    <h3>WebMD - Visual Analytics</h3>
+  </div>
+  <div class="placeholder"></div>
+
+  <div class="space bub">
     <svg id="bubble" width="400" height="400"></svg>
   </div>
 
@@ -187,6 +221,7 @@ d3v4.json("bubble.json", function(error, root) {
       .on("click", function(d) { 
         if (d3.select(this).classed("node--leaf")) {
           //alert(d.data.name); //open URL here
+          $(this).css("backgound","red");
           topic_name = d.data.name.toLowerCase() + "-questions";
           //Heart of interaction with other charts
           updateChord(topic_name);
@@ -809,8 +844,10 @@ function updateHuman(item) {
 
   var highlight = divs.split(",");
 
+
+
   highlight.forEach(function(d) {
-      $('#'+d).css("background-color","red");
+      $('#'+d).css("background-color","#FE4042");
   });
 
 
