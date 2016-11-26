@@ -65,7 +65,8 @@ var yAxis = d3.svg.axis()
 
 var line = d3.svg.line()
     .x(function(d) { return x(d.date); })
-    .y(function(d) { return y(d.count); });
+    .y(function(d) { return y(d.count); })
+	
 
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -73,14 +74,20 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("data.csv", function(error, data) {
+d3.csv("topicYear.csv", function(error, data) {
   if (error) throw error;
 
   data.forEach(function(d) {
     d.date = parseDate(d.date);
     d.count = +d.count;
+	d.disease = d.disease;
   });
 
+  //pass the disease name here to get the line chart for each disease
+  data = data.filter(function(d) {
+	return d.disease == 'ablation-questions';
+  })
+  
   data.sort(function(a, b) {
     return a.date - b.date;
   });
