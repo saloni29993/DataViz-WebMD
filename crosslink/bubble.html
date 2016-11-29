@@ -296,7 +296,7 @@ d3v4.json("bubble.json", function(error, root) {
           return function(t) { zoomTo(i(t)); };
         });
 
-    transition.selectAll("text")
+    transition.selectAll("#bubble text")
       .filter(function(d) { return d.parent === focus1 || this.style.display === "inline"; })
         .style("fill-opacity", function(d) { return d.parent === focus1 ? 1 : 0; })
         .on("start", function(d) { if (d.parent === focus1) this.style.display = "inline"; })
