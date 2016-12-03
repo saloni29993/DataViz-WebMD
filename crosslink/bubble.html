@@ -2,6 +2,9 @@
 <html>
 
 <meta charset="utf-8">
+<head>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
 <style>
 
 /*  Human css */
@@ -78,7 +81,7 @@ path.chord {
 }
 
 .holder {
-  margin: 20px;
+  margin: 15px;
   width: 400px;
   height: 400px;
   position: relative;
@@ -128,6 +131,7 @@ body {
 
 .bub {
   margin: 20px;
+  border-right: 1px solid;
 }
 
 .axis path,
@@ -158,6 +162,12 @@ body {
 }
 
 
+.human_outer{
+  padding-left: 2px;
+  border-left: 1px solid;
+  margin-top: 20px;
+}
+
 </style>
 
 <body>
@@ -173,13 +183,15 @@ body {
 
 
 <div class="space" id="body">
+  <center>Disease-Symptom Relationship</center>
   <div id="footer">
 
     <div class="hint"></div>
   </div>
 </div>
 
-<div class="space holder">
+<div class="human_outer space ">
+<div class="holder">
   <div class="main">
       <img src="humans1.png" height="100%" width="100%">
   </div>
@@ -204,6 +216,7 @@ body {
       </div>      
   </div>
   
+</div>
 </div>
 
 <div class="space lin">
@@ -347,7 +360,10 @@ var svg = d3v3.select("#body").append("svg:svg")
     .attr("width", w)
     .attr("height", h)
     .append("svg:g")
-    .attr("transform", "translate(" + (w) / 2 + "," + (h) / 2 + ")");
+    .attr("transform", "translate(" + (w) / 2 + "," + (h) / 2 + ")")
+    .append("svg:text")
+    .text("Please Select a Topic...")
+    .attr("transform","translate(-60,-50)");
 
 function updateChord(param) {
 
