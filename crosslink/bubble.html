@@ -60,7 +60,7 @@ path.chord {
 }
 
 .node--leaf {
-  fill: white;
+  fill: #FDFF8A;
 }
 
 .label {
@@ -81,9 +81,8 @@ path.chord {
 }
 
 .holder {
-  margin: 15px;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   position: relative;
 }
 
@@ -106,7 +105,8 @@ path.chord {
 }
 
 .heading {
-  height: 45px;
+  height: 40px;
+  padding: 10px;
   background-color: #383838;
   text-align: center;
   color: white;
@@ -130,8 +130,10 @@ body {
 }
 
 .bub {
-  margin: 20px;
-  border-right: 1px solid;
+  /*margin: 20px;*/
+  background:white;
+  border-radius:5px;
+  /*border-right: 1px solid;*/
 }
 
 .axis path,
@@ -163,27 +165,48 @@ body {
 
 
 .human_outer{
+  background: white;
   padding-left: 2px;
-  border-left: 1px solid;
-  margin-top: 20px;
+  border-radius:5px;
+  /*border-left: 1px solid;*/
+}
+
+hr {
+  margin:0;
+  width: 100%;
+}
+
+#body {
+  background: white;
+  border-radius:5px;
+}
+
+.questions{
+  background: white;
+  height: 300px;
+  min-width: 600px;
+  border-radius:5px;
 }
 
 </style>
 
 <body>
-  <!-- <div class="heading">
-    <h3>WebMD - Visual Analytics</h3>
+  <div class="heading">
+    <h3>Know Your Diseases!</h3>
   </div>
-  <div class="placeholder"></div> -->
+  <div class="placeholder"></div>
 
-  <div class="space bub">
-    <svg id="bubble" width="400" height="400"></svg>
+  <div class="space bub"  style="">
+        <h5>Q&amp;A Topics</h5>
+        <hr>
+    <svg id="bubble" width="500" height="500"></svg>
   </div>
 
 
 
 <div class="space" id="body">
-  <center>Disease-Symptom Relationship</center>
+  <h5>Disease-Symptom Relationship</h5>
+  <hr>
   <div id="footer">
 
     <div class="hint"></div>
@@ -191,6 +214,8 @@ body {
 </div>
 
 <div class="human_outer space ">
+  <h5>Area of Human Body Affected</h5> 
+  <hr>
 <div class="holder">
   <div class="main">
       <img src="humans1.png" height="100%" width="100%">
@@ -224,6 +249,9 @@ body {
 </div>
 
 <div class="space questions">
+  <h5>Questions</h5>
+  <hr>
+  <div class="q"></div>
     
 </div>
 
@@ -239,10 +267,12 @@ var svg = d3v4.select("#bubble"),
     diameter = +svg.attr("width"),
     g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
-var color = d3v4.scaleLinear()
-    .domain([-1, 5])
-    .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
-    .interpolate(d3v4.interpolateHcl);
+// var color = d3v4.scaleLinear()
+//     .domain([-1, 5])
+//     .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
+//     .interpolate(d3v4.interpolateHcl);
+
+var color = d3v4.scaleSequential(d3v4.interpolateMagma).domain([-4,4]);
 
 var pack = d3v4.pack()
     .size([diameter - margin, diameter - margin])
