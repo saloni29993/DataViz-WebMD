@@ -19166,14 +19166,14 @@
 
 function updateQuestions(param) {
 
-var recentquestions = "";
+var recentquestions = "<div class='list-group'>";
 
 questionUrl[param].forEach(function(d) {
-    recentquestions = recentquestions + "<a href='" +d.qurl +"'>" +d.q +"</a><br>";
+    recentquestions = recentquestions + "<a target='_blank' class='list-group-item' href='" +d.qurl +"'>" +d.q +"</a>";
 });
 
+recentquestions += "</div>";
 
-
-$('.questions').html("<b>Questions</b><br>" + recentquestions);
+$('.q').html(recentquestions);
 
 }
