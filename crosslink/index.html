@@ -132,6 +132,7 @@ body {
 
 .bub {
   margin-left: 10px;
+  margin-bottom: 10px;
   /*margin: 20px;*/
   background:white;
   border-radius:5px;
@@ -189,7 +190,7 @@ hr {
   margin-left: 10px;
   background: white;
   height: 300px;
-  min-width: 600px;
+  width: 600px;
   border-radius:5px;
 }
 
@@ -198,6 +199,7 @@ hr {
   background: white;
   height: 300px;
   border-radius:5px;
+  width: 600px;
 }
 
 .medtest {
@@ -205,7 +207,7 @@ hr {
   background: white;
   height: 300px;
   border-radius:5px;
-  width: 200px;
+  width: 400px;
   overflow: auto;
 }
 
@@ -350,6 +352,7 @@ d3v4.json("bubble.json", function(error, root) {
     .data(nodes)
     .enter().append("text")
       .attr("class", "label")
+      .style("font-size","16px")
       .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
       .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
       .text(function(d) { return d.data.name; });
@@ -557,7 +560,7 @@ function updateLine(param) {
   d3.select("#line svg").remove();
 
   var margin = {top: 20, right: 50, bottom: 40, left: 50},
-    width = 700 - margin.left - margin.right,
+    width = 600 - margin.left - margin.right,
     height = 250 - margin.top - margin.bottom;
 
   var parseDate = d3.time.format("%Y-%m").parse,
