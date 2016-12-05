@@ -592,7 +592,7 @@ function updateLine(param) {
     .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-  d3.csv("topicYear.csv", function(error, data) {
+  d3.csv("topicyear.csv", function(error, data) {
     if (error) throw error;
 
     data.forEach(function(d) {
