@@ -194,6 +194,14 @@ hr {
   border-radius:5px;
 }
 
+.medtest {
+  background: white;
+  height: 300px;
+  border-radius:5px;
+  width: 200px;
+  overflow: auto;
+}
+
 
 
 </style>
@@ -205,7 +213,7 @@ hr {
 <div class="placeholder"></div>
 
 <div class="space bub"  style="">
-  <h5>Q&amp;A Topics</h5>
+  <h5>Hierarchy of Q&amp;A Topics discussed</h5>
   <hr>
   <svg id="bubble" width="500" height="500"></svg>
 </div>
@@ -253,16 +261,22 @@ hr {
 </div>
 
 <div class="space lin">
-  <h5>Prevalence of Disease over a period of time</h5>
+  <h5>Frequency of questions for a Topic over a period Time</h5>
   <hr>
   <svg id="line" width="800" height="800"></svg>
 </div>
 
 <div class="space questions">
-  <h5>Questions</h5>
+  <h5>Most Famous Questions</h5>
   <hr>
   <div class="q"></div>
     
+</div>
+
+<div class="space medtest">
+  <h5>Medical Tests discussed</h5>
+  <hr>
+  <div class="med"></div>
 </div>
 
 <!-- ####################################################################################################### -->
@@ -313,15 +327,15 @@ d3v4.json("bubble.json", function(error, root) {
           //Heart of interaction with other charts
           updateChord(topic_name);
           updateHuman(topic_name);
-          
+          updateMedicalTests(topic_name);
           updateQuestions(topic_name);
           updateLine(topic_name);
 
         } else {
 
-          console.log(d);
+          //console.log(d);
           if (focus1 !== d) zoom(d); d3.event.stopPropagation(); 
-          console.log("koikoi");
+          //console.log("koikoi");
         }
       });
 
@@ -343,7 +357,7 @@ d3v4.json("bubble.json", function(error, root) {
 
   function zoom(d) {
     var focus10 = focus1; focus1 = d;
-    console.log("focus1: " +focus1 +"   d= " +d);
+    //console.log("focus1: " +focus1 +"   d= " +d);
     var transition = d3v4.transition()
         .duration(d3v4.event.altKey ? 7500 : 750)
         .tween("zoom", function(d) {
@@ -529,7 +543,7 @@ function updateChord(param) {
 <script type="text/javascript">
 
 function updateLine(param) {
-  console.log("call to line chart");
+  //console.log("call to line chart");
 
   var d3 = d3v3;
 
@@ -656,6 +670,8 @@ function updateLine(param) {
 <script type="text/javascript" src="questions.js"></script>
 
 <!-- ####################################################################################################### -->
+
+<script type="text/javascript" src="medtest.js"></script>
 
 </body>
 </html>

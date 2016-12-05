@@ -19,6 +19,8 @@ questions = filter(lambda x: " test " in x['questionTitle'] or " test " in x['qu
 
 #pprint(questions)
 
+medtest = {}
+
 for t in data_topics:
 	topic = t['topicId']
 	med_diseases = []
@@ -28,5 +30,13 @@ for t in data_topics:
 		disease_content = dl.get_close_matches(q['questionContent'],tests,10,0.5)
 		med_diseases = med_diseases + disease_question + disease_content
 
-	print "topic : ",topic, ", q: ",med_diseases
+	topic_tests = list(set(med_diseases))
+	print topic
+	medtest[topic] = topic_tests
+
+with open('med_test.json', 'w') as outfile:
+	json.dump(medtest, outfile)
+
+
+        
 
