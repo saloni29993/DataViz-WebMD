@@ -1,0 +1,354 @@
+{
+ "name": "flare",
+ "children": [
+  {
+  "name": "Gender Specific",
+  "children": [
+    {
+       "name": "Women",
+       "children": [
+        {"name":"uterus", "size": 86 },
+        {"name": "pregnancy", "size": 1765},
+        {"name": "period", "size": 1675},
+        {"name": "vagina", "size": 485},
+        {"name": "breast", "size": 367},
+        {"name": "birth control", "size": 371},
+        {"name": "pregnancy-test", "size": 250},
+        {"name": "ovulation", "size": 154},
+        {"name":"nipple", "size": 103 },
+        {"name":"feeding", "size": 72 },
+        {"name":"breast-cancer", "size": 51},
+        {"name":"clitoris", "size": 39 },
+        {"name":"vaginal-discharge", "size": 42 },
+        {"name":"hemorrhoid", "size": 40 },
+        {"name":"menstrual", "size": 38 },
+        {"name":"menopause", "size": 114 },
+        {"name":"miscarriage", "size": 80 },
+        {"name":"tampon", "size": 56 },
+        {"name":"ovary", "size": 123 },
+        {"name":"cervix", "size": 56 },
+        {"name":"hysterectomy", "size": 115 },
+        {"name":"birth", "size": 71 }
+       ]
+      },
+      {
+       "name": "Men",
+       "children": [
+        {"name":"prostate", "size": 59 },
+        {"name":"vasectomy", "size": 32 },
+        {"name": "penis", "size": 565},
+        {"name": "chest", "size": 322},
+        {"name": "testicle", "size": 148},
+        {"name": "erection", "size": 169},
+        {"name": "masturbation", "size": 192},
+        {"name":"sperm", "size": 122},
+        {"name":"scrotum", "size": 43},
+        {"name":"foreskin", "size": 56 },
+        {"name":"erectile-dysfunction", "size": 48 },
+        {"name":"testosterone", "size": 79 }
+       ]
+      }
+
+    ]
+  },
+  {
+  "name": "Food & Drugs",
+  "children": [
+
+    {
+     "name": "Alcohol & Drugs",
+     "children": [
+      {"name":"drug-test", "size": 86 },
+      {"name":"marijuana", "size": 67 },
+      {"name": "Drinking", "size": 567},
+      {"name": "Drugs", "size": 519},
+      {"name": "Smoking", "size": 190},
+      {"name":"alcoholism", "size": 32},
+      {"name":"steroid", "size": 66 },
+      {"name":"insulin", "size": 58 },
+      {"name":"antibiotic", "size": 412 } 
+     ]
+    },
+    {
+     "name": "Food",
+     "children": [
+      {"name":"supplement", "size": 76 },
+      {"name":"salt", "size": 57 },
+      {"name": "food", "size": 454},
+      {"name":"milk", "size": 128 },
+      {"name":"soda", "size": 48 },
+      {"name":"coffee", "size": 62 },
+      {"name":"meat", "size": 42 },
+      {"name":"tea", "size": 54 },
+      {"name":"caffeine", "size": 36 }
+     ]
+    }
+    ]
+  },
+  {
+     "name": "Sexual Problems",
+     "children": [
+      {"name":"chlamydia", "size": 86 },
+      {"name":"sexually-transmitted-disease", "size": 106 },
+      {"name": "Sexual-Intercourse", "size": 891},
+      {"name": "herpes", "size": 186},
+      {"name": "hiv", "size": 69},
+      {"name":"orgasm", "size": 98 },
+      {"name":"genitalia", "size": 41 },
+      {"name":"genital-herpes", "size": 92 },
+      {"name":"fertility", "size": 81 },
+      {"name":"libido", "size": 30 },
+      {"name":"anus", "size": 144 }
+     ]
+    },
+    {
+      "name": "Sensory Organs",
+      "children": [
+        {
+           "name": "Eyes",
+           "children": [
+            {"name": "vision", "size": 863},
+            {"name": "eyes", "size": 446},
+            {"name": "pink-eye", "size": 34},
+            {"name":"eyelid", "size": 38 }
+           ]
+          },
+          {
+           "name": "Ears",
+           "children": [
+            {"name":"tinnitus", "size": 51 },
+            {"name":"ear-infection", "size": 71 },
+            {"name":"ears", "size": 397 }
+           ]
+          },
+          {
+           "name": "Mouth",
+           "children": [
+            {"name":"lip", "size": 137 },
+            {"name":"mouth", "size": 242 },
+            {"name":"tooth", "size": 240 },
+            {"name":"tongue", "size": 94 },
+            {"name":"jaw", "size": 67 }
+           ]
+          }
+      ]
+    },
+    {
+     "name": "Heart Problems",
+     "children": [
+      {"name":"stroke", "size": 62 },
+      {"name":"heart", "size": 269 },
+{"name":"blood-clot", "size": 67 },
+      {"name":"pulse", "size": 45 },
+      {"name":"artery", "size": 39 },
+      {"name":"heart-attack", "size": 52 },
+      {"name":"heart-disease", "size": 33 },
+      {"name":"cholesterol", "size": 97 },
+      {"name":"heartburn", "size": 64 }
+     ]
+    },
+    {
+     "name": "Stomach, Kidney & Intestine",
+     "children": [
+      {"name":"flatulence", "size": 41 },
+      {"name":"pelvis", "size": 60 },
+      {"name":"appendix", "size": 33 },
+      {"name":"pelvic-area", "size": 33 },
+      {"name":"lymph-node", "size": 61 },
+      {"name":"intestine", "size": 32 },
+      {"name":"colonoscopy", "size": 61 },
+      {"name":"bladder", "size": 94 },
+      {"name":"rectum", "size": 58 },
+      {"name":"abdominal-pain", "size": 56 },
+      {"name":"constipation", "size": 76 },
+      {"name":"bloating", "size": 104 },
+      {"name":"waist", "size": 33 },
+      {"name":"kidney", "size": 132 },
+      {"name":"kidney-stone", "size": 64 },
+      {"name":"urinary-tract-infection", "size": 39 },
+      {"name":"hernia", "size": 65 },
+      {"name":"stomach", "size": 590 },
+      {"name":"diarrhea", "size": 196 },
+      {"name":"belly-button", "size": 53 },
+      {"name":"cholesterol", "size": 97 },
+      {"name":"bowel-movement", "size": 140 },
+      {"name":"heartburn", "size": 64 }
+     ]
+    },
+    {
+     "name": "Hands & Legs",
+     "children": [
+      {"name":"movement", "size": 393 },
+      {"name":"finger", "size": 230 },
+      {"name":"rheumatoid-arthritis", "size": 31 },
+      {"name":"calf", "size": 43 },
+      {"name":"elbow", "size": 73 },
+      {"name":"arthritis", "size": 68 },
+      {"name":"hand", "size": 428 },
+      {"name":"fracture", "size": 88 },
+      {"name":"knee", "size": 239 },
+      {"name":"big-toe", "size": 42 },
+      {"name":"thumb", "size": 55 },
+      {"name":"nail", "size": 65 },
+      {"name":"forearm", "size": 38 },
+      {"name":"toe", "size": 115 },
+      {"name":"ankle", "size": 140 },
+      {"name":"armpit", "size": 53 },
+      {"name":"foot", "size": 387 },
+      {"name":"wrist", "size": 77 },
+      {"name":"shoulder", "size": 172 },
+      {"name":"thigh", "size": 120 },
+      {"name":"leg", "size": 524 },
+      {"name":"heartburn", "size": 64 }
+     ]
+    },
+    {
+     "name": "Cancer",
+     "children": [
+      {"name":"prostate-cancer", "size": 48 },
+      {"name":"cancer", "size": 237 },
+      {"name":"breast-cancer", "size": 51},
+      {"name":"chemotherapy", "size": 30 },
+      {"name":"magnetic-resonance-imaging", "size": 42 },
+      {"name":"tumor", "size": 33 }
+     ]
+    },
+    {
+     "name": "Pain",
+     "children": [
+      {"name":"muscle", "size": 257 },
+      {"name":"fatigue", "size": 125 },
+      {"name":"tightness", "size": 93 },
+      {"name": "Pain", "size": 2078},
+      {"name": "back-pain", "size": 171}
+     ]
+    },
+    {
+     "name": "Hair & Skin",
+     "children": [
+      {"name":"blister", "size": 140 },
+      {"name":"cyst", "size": 120 },
+      {"name":"human-papillomavirus", "size": 49 },
+      {"name":"yeast-infection", "size": 187 },
+      {"name":"wrinkle", "size": 48 },
+      {"name":"boil", "size": 62 },
+      {"name":"mole", "size": 42 },
+      {"name":"wart", "size": 84 },
+      {"name":"hair-loss", "size": 30 },
+      {"name": "skin", "size": 722},
+      {"name": "itch", "size": 215},
+      {"name": "rash", "size": 215},
+      {"name": "lump", "size": 214},
+      {"name": "shingles", "size": 148},
+      {"name":"inflammation", "size": 35 },
+      {"name":"chickenpox", "size": 33 },
+      {"name":"psoriasis", "size": 39 },
+      {"name":"scar", "size": 70 },
+      {"name":"wound", "size": 58 },
+      {"name":"dry-skin", "size": 31 },
+      {"name":"hair", "size": 276 },
+      {"name":"bruise", "size": 154 },
+      {"name":"acne", "size": 132 },
+      {"name":"scalp", "size": 47 }
+     ]
+    },
+    {
+     "name": "Respiratory Problems",
+     "children": [
+       {"name": "flu", "size": 202},
+      {"name": "cough", "size": 283},
+      {"name":"sinus", "size": 98 },
+      {"name":"cold", "size": 85 },
+      {"name":"tonsil", "size": 61 },
+      {"name":"sore-throat", "size": 101 },
+      {"name":"lung", "size": 86 },
+      {"name":"asthma", "size": 69 },
+      {"name":"pneumonia", "size": 64 },
+      {"name":"throat", "size": 230 },
+      {"name":"bronchitis", "size": 48 },
+      {"name":"sinus-infection", "size": 69 },
+      {"name":"strep-throat", "size": 46 },
+      {"name":"smell", "size": 180 }
+     ]
+    },
+    {
+     "name": "Brain & Spine",
+     "children": [
+      {"name":"vertigo", "size": 38 },
+      {"name":"neck", "size": 296 },
+      {"name":"spine", "size": 69 },
+      {"name":"trauma", "size": 31 },
+      {"name":"bipolar-disorder", "size": 54 },
+      {"name":"seizure", "size": 70 },
+      {"name":"brain", "size": 112 }
+     ]
+    },
+    {
+     "name": "Obesity",
+     "children": [
+      {"name": "weight", "size": 398},
+      {"name": "diet", "size": 338},
+      {"name": "obesity", "size": 34},
+      {"name":"weight-gain", "size": 83 },
+      {"name":"workout", "size": 71 },
+      {"name":"weight-loss", "size": 119 },
+      {"name":"hunger", "size": 84 },
+      {"name":"thyroid", "size": 123 },
+      {"name":"exercise", "size": 375 }
+     ]
+    },
+    {
+     "name": "Infants",
+     "children": [
+      {"name":"toddler", "size": 50 },
+      {"name":"infant", "size": 53 },
+      {"name":"crying", "size": 77},
+      {"name":"baby", "size": 482 },
+      {"name":"birth", "size": 71 }
+     ]
+    },
+    {
+     "name": "General Symptoms",
+     "children": [
+      {"name":"weakness", "size": 99 },
+      {"name":"drowsiness", "size": 107 },
+      {"name":"allergy", "size": 161 },
+      {"name": "Swelling", "size": 562},
+      {"name": "fever", "size": 325},
+      {"name": "Coldness", "size": 387},
+      {"name": "headache", "size": 383},
+      {"name": "burn", "size": 308},
+      {"name": "spotting", "size": 236},
+      {"name": "cramps", "size": 226},
+      {"name": "stress", "size": 216},
+      {"name": "urination", "size": 220},
+      {"name": "dizziness", "size": 201},
+      {"name": "anxiety", "size": 204},
+      {"name": "pressure", "size": 191},
+      {"name": "blood-pressure", "size": 220},
+      {"name": "vomit", "size": 184},
+      {"name": "fear", "size": 182},
+      {"name": "depression", "size": 179},
+      {"name": "inflation", "size": 35},
+      {"name": "sweating", "size": 170},
+      {"name":"high-blood-pressure", "size": 127 },
+      {"name":"nausea", "size": 281 }
+     ]
+    },
+    {
+     "name": "Blood Problems",
+     "children": [
+      {"name":"type-2-diabetes", "size": 38 },
+      {"name":"blood-test", "size": 173 },
+      {"name":"blood-sugar", "size": 101 },
+      {"name":"diabetes", "size": 292 }
+     ]
+    },
+    {
+     "name": "Surgery",
+     "children": [
+      {"name":"surgery", "size": 540 }
+     ]
+    }
+ ]
+}  

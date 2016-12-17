@@ -1,0 +1,411 @@
+{
+	"pain" : "m1,m2,m3,m4,f1,f2,f3,f4",
+	
+	"uterus" : "f3",
+
+	"pregnancy" : "f3",
+
+	"period" : "f1,f2,f3,f4",
+
+	"vagina" : "f3",
+
+	"breast" : "f2",
+
+	"birth control" : "f2,f3,f4", 
+
+	"ovulation" : "f3",
+
+	"nipple" : "m2,f2",
+
+	"feeding" : "f2",
+
+	"breast-cancer" : "f2",
+
+	"clitoris" : "f3",
+
+	"vaginal-discharge" : "f3",
+
+	"hemorrhoid" : "m3,f3",
+
+	"menstrual" : "f3",
+
+	"menopause" : "f3",
+
+	"miscarriage" : "f3",
+
+	"tampon" : "f3",
+
+	"ovary" : "f3",
+
+	"cervix" : "f3",
+
+	"hysterectomy" : "f3",
+
+	"birth": "f1,f2,f3,f4",
+
+	"prostate" : "m3", 
+
+	"vasectomy" : "m3",
+
+	"penis" : "m3",
+
+	"chest" : "m2",
+
+	"testicle" : "m3",
+
+	"erection" : "m3",
+
+	"masturbation" : "m3,f3",
+
+	"sperm" : "m3",
+
+	"scrotum" : "m3",
+
+	"foreskin" : "m3",
+
+	"erectile-dysfunction" : "m3",
+
+	"testosterone" : "m3",
+
+	"drug-test" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"marijuana" : "m1,f1",
+
+	"Drinking" : "m1,f1,m3,f3",
+
+	"Drugs" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"Smoking" : "m1,f1",
+
+	"alcoholism" : "m1,f1,m3,f3", 
+
+	"steroid" : "m2,f2",
+
+	"insulin" : "m3,f3",
+
+	"antibiotic" : "m1,f1",
+
+	"supplement" : "m1,f1",
+
+	"salt" : "m1,f1,m3,f3",
+
+	"food" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"milk" : "m1,f1,m2,f2,m3,f3",
+
+	"soda" : "m2,f2,m3,f3",
+
+	"coffee" : "m2,f2,m3,f3",
+
+	"meat" : "m2,f2",
+
+	"tea" : "m1,f1,m2,f2",
+
+	"caffeine" : "m1,f1,m2,f2",
+
+	"chlamydia" : "m3,f3",
+
+	"sexually-transmitted-disease" : "m1,f1,m3,f3",
+
+	"Sexually-Intercourse" : "m1,f1,m3,f3",
+
+	"herpes" : "m1,f1,m3,f3",
+
+	"hiv" : "m3,f3",
+
+	"orgasm" : "f3",
+
+	"genitalia" : "m3,f3",
+
+	"genital-herpes" : "m3,f3",
+
+	"fertility" : "m3,f3",
+
+	"libido" : "m3,f3",
+
+	"anus" : "m3,f3",
+
+	"vision" : "m1,f1",
+
+	"eyes" : "m1,f1",
+
+	"pink-eye" : "m1,f1",
+
+	"eyelid" : "m1,f1",
+
+	"tinnitus" : "m1,f1",
+
+	"ear-infection" : "m1,f1",
+
+	"ears" : "m1,f1",
+
+	"lip" : "m1,f1",
+
+	"mouth" : "m1,f1",
+
+	"tooth" : "m1,f1",
+
+	"tongue" : "m1,f1",
+
+	"jaw" : "m1,f1",
+
+	"stroke" : "m2,f2",
+
+	"heart" : "m2,f2",
+
+	"blood-clot" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"pulse" : "m2,f2",
+
+	"artery" : "m2,f2",
+
+	"heart-attack" : "m2,f2",
+
+	"heart-disease" : "m2,f2",
+
+	"cholesterol" : "m2,f2",
+
+	"heartburn" : "m2,f2", 
+
+	"flatulence" : "m3,f3",
+
+	"pelvis" : "m3,f3",
+
+	"appendix" : "m2,f2",
+
+	"pelvic-area" : "m3,f3",
+
+	"lymph-node" : "m3,f3",
+
+	"intestine" : "m3,f3",
+
+	"colonoscopy" : "m3,f3",
+
+	"bladder" : "m3,f3",
+
+	"rectum" : "m3,f3",
+
+	"abdominal-pain" : "m3,f3",
+
+	"constipation" : "m2,f2",
+
+	"bloating" : "m2,f2",
+
+	"waist" : "m3,f3",
+
+	"kidney" : "m3,f3",
+
+	"kidney-stone" : "m3,f3",
+
+	"urinary-tract-infection" : "m3,f3",
+
+	"hernia" : "m2,f2",
+
+	"stomach" : "m2,f2",
+
+	"diarrhea" : "m2,f2",
+
+	"belly-button" : "m2,f2",
+
+	"bowel-movement" : "m3,f3",
+
+	"movement" : "m2,m3,f2,f3",
+
+	"finger" : "m3,f3,m4,f4",
+
+	"rheumatoid-arthritis" : "m3,f3,m4,f4",
+
+	"calf" : "m4,f4",
+
+	"elbow" : "m3,f3",
+
+	"arthritis" : "m4,f4",
+
+	"hand" : "m2,m3,f2,f3",
+
+	"fracture" : "m2,m3,m4,f2,f3,f4",
+
+	"knee" : "m4,f4",
+
+	"big-toe" : "m4,f4",
+
+	"thumb" : "m3,f3,m4,f4",
+
+	"nail" : "m3,f3,m4,f4",
+
+	"forearm" : "m3,f3",
+
+	"toe" : "m4,f4",
+
+	"ankle" : "m4,f4",
+
+	"armit" : "m2,f2",
+
+	"foot" : "m4,f4",
+
+	"wrist" : "m3,f3",
+
+	"shoulder" : "m2,f2",
+
+	"thigh" : "m4,f4",
+
+	"leg" : "m4,f4",
+
+	"prostate-cancer" : "m3",
+
+	"cancer" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"breast-cancer" : "f2",
+
+	"chemotherapy" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"magnetic-resonance-imaging" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"tumor" : "m1,f1",
+
+	"muscle" : "m2,m3,m4,f2,f3,f4",
+
+	"fatigue" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"tightness" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"Pain" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"back-pain" : "m2,m3,f2,f3",
+
+	"blister" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"cyst" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"human-papillomavirus" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"yeast-infection" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"wrinkle" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"boil" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"mole" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"wart" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"hair-loss" : "m1,f1",
+
+	"skin" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"itch" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"rash" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"lump" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"shingles" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"inflammation" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"chickenpox" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"psoriasis" : "m1,f1",
+
+	"scar" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"wound" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"dry-skin" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"hair" : "m1,f1",
+
+	"bruise" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"acne" : "m1,f1",
+
+	"scalp" : "m1,f1",
+
+	"flu" : "m1,f1",
+
+	"cough" : "m1,f1",
+
+	"sinus" : "m1,f1",
+
+	"tonsil" : "m1,f1",
+
+	"sore-throat" : "m1,f1",
+
+	"lung" : "m2,f2",
+
+	"asthma" : "m1,f1,m2,f2",
+
+	"pneumonia" : "m2,f2",
+
+	"throat" : "m1,f1",
+
+	"bronchitis" : "m1,m2,f1,f2",
+
+	"sinus-infection" : "m1,f1",
+
+	"strep-throat" : "m1,f1",
+
+	"smell" : "m1,f1",
+
+	"vertigo" : "m1,f1",
+
+	"neck" : "m1,f1",
+
+	"spine" : "m2,f2",
+
+	"trauma" : "m1,f1",
+
+	"bipolar-disorder" : "m1,f1",
+
+	"seizure" : "m1,f1",
+
+	"brain" : "m1,f1",
+
+	"weight" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"diet" : "m2,f2",
+
+	"obesity" : "m2,f2,m3,f3",
+
+	"weight-gain" : "m2,m3,m4,f2,f3,f4",
+
+	"workout" : "m2,m3,m4,f2,f3,f4",
+
+	"weight-loss" : "m2,m3,m4,f2,f3,f4",
+
+	"hunger" : "m2,f2",
+
+	"thyroid" : "m2,f3,m2,f3",
+
+	"exercise" : "m2,m3,m4,f2,f3,f4",
+
+	"weakness" : "m2,m3,m4,f2,f3,f4",
+
+	"drowsiness" : "m1,f1",
+
+	"allergy" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"Swelling" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"fever" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"Coldness" : "m1,f1",
+
+	"headache" : "m1,f1",
+
+	"burn" : "m2,f2",
+
+	"spotting" : "m1,m2,m3,m4,f1,f2,f3,f4",
+
+	"cramps" : "m2,m4,f2,f4",
+
+	"urination" : "m3,f3",
+
+	"dizziness" : "m1,f1",
+
+	"anxiety" : "m1,f1",
+
+	"vomit" : "m1,m2,f1,f2",
+
+	"surgery" : "m1,m2,m3,m4,f1,f2,f3,f4"
+}
