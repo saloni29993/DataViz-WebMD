@@ -4,7 +4,7 @@ Visual analytics is a kind of analytics in which the data is showcased visually 
 
 ## Video Link: https://youtu.be/-2L6YvNG3TQ 
 
-# Poster
+## Poster
 
 ![Intelligent Visual Anaytics for WebMD.com](https://github.com/saloni29993/DataViz-WebMD/poster_v1/Poster-WebMDAnalytics.png "Intelligent Visual Anaytics for WebMD.com")
 
